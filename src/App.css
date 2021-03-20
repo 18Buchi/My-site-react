@@ -5,14 +5,20 @@
   margin: 0;
   padding: 0;
   font-family: "Lato", "sans-serif";
+  
 }
 
+html {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
 .home,
-.reports,
-.twitter {
+.reports {
   display: flex;
   height: 90vh;
   align-items: center;
   justify-content: center;
-  font-size: 3rem;
+  font-size: 2rem;
 }
